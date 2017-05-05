@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ccc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txt_ten_sanpham"
+        android:textColor="#eb1010"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:background="#fff"
+        android:id="@+id/txt_gia_sanpham"
+        android:textColor="#eb1010"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:background="#fff"
+            android:gravity="center_vertical"
+            android:text="Chưa có lượt đánh giá"
+            android:layout_weight="40"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/textView2" />
+        <View
+            android:layout_marginLeft="30dp"
+            android:background="#ccc"
+            android:layout_width="1dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="Lượt mua"
+            android:layout_weight="50"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+        <View
+            android:layout_marginLeft="20dp"
+            android:background="#ccc"
+            android:layout_width="1dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:layout_marginLeft="70dp"
+            android:text="Đánh giá"
+            android:gravity="center_vertical"
+            android:layout_weight="40"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </LinearLayout>
+   <TextView
+       android:layout_marginTop="10dp"
+       android:drawableLeft="@drawable/ic_event_note_black_24dp"
+       android:drawableRight="@drawable/ic_remove_black_24dp"
+       android:gravity="center_vertical"
+       android:textColor="#000"
+       android:background="#fff"
+       android:textStyle="bold"
+       android:text="Tham khảo thông tin vận chuyển"
+       android:layout_width="match_parent"
+       android:layout_height="50dp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:textColor="#000"
+        android:background="#fff"
+        android:textStyle="bold"
+        android:text="Màu sắc kích thước"
+        android:layout_width="match_parent"
+        android:drawableRight="@drawable/ic_remove_black_24dp"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginTop="1dp"
+        android:background="#fff"
+        android:text="Số lượng"
+        android:gravity="end|center"
+        android:drawableRight="@drawable/ic_remove_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/linearlayout_chitet"
+        android:layout_marginTop="10dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <TextView
+            android:gravity="center_vertical"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:text="Chi tiết sản phẩm"
+            android:layout_width="match_parent"
+            android:drawableRight="@drawable/ic_remove_black_24dp"
+            android:layout_height="50dp"
+            android:id="@+id/textView3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Đánh giá phản hồi"
+        android:layout_width="match_parent"
+        android:drawableRight="@drawable/ic_remove_black_24dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView51" />
+      <TextView
+          android:layout_marginTop="1dp"
+          android:textColor="#e6722b"
+          android:textSize="16sp"
+          android:textStyle="bold"
+          android:gravity="center"
+          android:text="Sản phẩm chưa có đánh giá"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Tiến hành đặt hàng thành công \n để là người đánh giá đầu tiên cho sản phẩm này"
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+       </LinearLayout>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:text="Hỏi đáp"
+        android:background="#fff"
+        android:drawableRight="@drawable/ic_remove_black_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:hint="Đặt câu hỏi cho sản phẩm"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3" />
+
+        <Button
+            android:text="Gửi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </LinearLayout>

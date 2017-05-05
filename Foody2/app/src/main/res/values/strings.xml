@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Foody2</string>
+    <string name="phienban">Version</string>
+    <string name="dangtai">Đang tải...</string>
+    <string name="tenccongty">Trọng Nguyễn</string>
+    <string name="email">Email</string>
+    <string name="matkhau">Mật khẩu</string>
+    <string name="dangnhap">Đăng nhập</string>
+    <string name="hoac">Hoặc</string>
+    <string name="app_id">438819126456267</string>
+    <string name="google">Login with Google</string>
+    <string name="facebook">Login with Facebook</string>
+</resources>

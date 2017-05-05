@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#ccc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <TextView
+       android:textSize="18sp"
+       android:textStyle="bold"
+       android:layout_marginTop="30dp"
+       android:text="Thông Tin Người Nhận"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <LinearLayout
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:background="#f2b0b0"
+            android:layout_marginTop="40dp"
+            android:hint="Họ và tên đệm"
+            android:layout_width="match_parent"
+            android:textSize="15dp"
+            android:layout_height="40dp" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:hint="Tên"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:background="#f2b0b0"
+            android:layout_height="40dp" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:hint="Địa chỉ"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:background="#f2b0b0"
+            android:layout_height="40dp" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:hint="Tỉnh/ Thành"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:background="#f2b0b0"
+            android:layout_height="40dp" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:hint="Phường/ Xã"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:background="#f2b0b0"
+            android:layout_height="40dp" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:hint="Điện thoại"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:background="#f2b0b0"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</LinearLayout>

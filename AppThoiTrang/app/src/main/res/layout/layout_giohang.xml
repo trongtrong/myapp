@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ed0808"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text=" Sản trong giỏ hàng của bạn  "
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_SP_GioHang"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_SL_GioHang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:id="@+id/txt_Gia_GH"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f01010"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:id="@+id/txt_TongTien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#f01010"
+        android:textSize="18sp" />
+</LinearLayout>

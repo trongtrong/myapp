@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B71C1C"
+    tools:context="androi30_b.foody2.View.DangNhapActivity">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_gravity="center"
+            android:src="@drawable/foodytext"
+            android:layout_width="200dp"
+            android:layout_height="150dp" />
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/user"
+                android:layout_width="40dp"
+                android:layout_height="50dp" />
+            <EditText
+                android:id="@+id/edEmailDN"
+                android:backgroundTint="#ffffff"
+                android:textStyle="italic"
+                android:layout_marginLeft="20dp"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:hint="@string/email"
+                android:layout_width="match_parent"
+                android:textColorHint="#ffffff"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:src="@drawable/lock"
+                android:layout_width="40dp"
+                android:layout_height="50dp" />
+            <EditText
+                android:hint="@string/matkhau"
+                android:id="@+id/edPassworDN"
+                android:inputType="textPassword"
+                android:textColorHint="#ffffff"
+                android:backgroundTint="#ffffff"
+                android:textStyle="italic"
+                android:layout_marginLeft="20dp"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnDangNhap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/radius_button"
+            android:backgroundTint="#ffffff"
+            android:paddingLeft="60dp"
+            android:paddingRight="60dp"
+            android:text="@string/dangnhap"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"/>
+            <TextView
+                android:textSize="20sp"
+                android:text="@string/hoac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <View
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnDangNhapGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@color/colorAccent"
+            android:drawableLeft="@drawable/google"
+            android:text="@string/google"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/btnDangNhapFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:textAllCaps="false"
+
+            app:com_facebook_login_text="@string/facebook" />
+    </LinearLayout>
+</LinearLayout>
